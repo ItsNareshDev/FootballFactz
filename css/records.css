@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+
+.recordbg{
+  max-width: 100%;
+  background-image: url("../images/mainpage.png");
+  position: relative;
+}
+
+.txtlogo{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  position: fixed;
+  color: white;
+  top: 8px;
+  left: 16px;
+  margin-top: 0.8rem;
+}
+
+.txtlogo a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.navbar ul{
+  display: flex;
+  text-align: center;
+  position: fixed;
+  top: 8px;
+  right: 16px;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+}
+
+.a{
+  padding: 1rem;
+}
+
+.a a{
+  text-decoration: none;
+  color: white;
+}
+
+.recordtxt{
+  position: fixed;
+  display: flex;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 115px;
+  color: white;
+  top: 140px;
+  left: 32%;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+/* Cristiano Ronaldo content */
+
+.cr7record{
+  background: #8931E1;
+  color: white;
+  padding: 8px 8px 10px 8px;
+  border-radius: 30px;
+  margin: 1vh 20vh 1vh;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cr7record{
+  position: fixed;
+  display: flex;
+  top: 65vh;
+  right: 45%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.cr7png{
+  position: fixed;
+  display: flex;
+  top: 21%;
+  left: 14%;
+  height: 45%;
+}
+
+/* Robert Lewandowski Content */
+
+.rl9record{
+  background: #E32C44;
+  color: white;
+  padding: 8px 8px 10px 8px;
+  border-radius: 30px;
+  margin: 1vh 20vh 1vh;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.rl9record{
+  position: fixed;
+  display: flex;
+  top: 65vh;
+  left: 45%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.rl9png{
+  position: fixed;
+  display: flex;
+  top: 21%;
+  right: 14%;
+  height: 45%;
+}
+
+/* Mobile Screening */
+
+@media (max-width:700px){
+  .recordbg{
+    height: calc(150vh - 120px);
+    overflow-y: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+  }
+
+  .txtlogo{
+    display: flex;
+    position: fixed;
+    font-size: 3rem;
+    left: 13%;
+  }
+
+  .navbar ul {
+    display: flex;
+    position: fixed;
+    padding-top: 15%;
+    left: 1%;
+  }
+
+  .recordtxt{
+    font-size: 70px;
+    color: white;
+    top: 120px;
+    left: 7%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+
+
+/* Cristiano Ronaldo  */
+
+  .cr7record{
+    padding: 4px 4px 4px 4px;
+    font-size: 15px;
+    text-align: center;
+    width: 85%;
+    height: auto;
+    position: fixed;
+    display: flex;
+    top: 48vh;
+    font-size: 15px;
+    right: auto;
+    left: auto;
+    margin: auto;
+  }
+
+   .cr7record{
+    left: 20px;
+  }
+
+   .cr7png{
+     display: flex;
+     position: fixed;
+     top: 31%;
+     height: 18%;
+   }
+
+
+   /* Robert Lewandowski Content */
+
+   .rl9record{
+    padding: 9px 9px 6px;
+    font-size: 15px;
+    text-align: center;
+    width: 83%;
+    height: auto;
+    position: fixed;
+    display: flex;
+    top: 80vh;
+    font-size: 15px;
+    right: auto;
+    left: auto;
+    margin: auto;
+  }
+
+  .rl9record{
+    left: 37px;
+  }
+
+  .rl9png{
+    position: fixed;
+    display: flex;
+    top: 66%;
+    height: 15%;
+  }
+}

@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.backgroundimg {
+  max-width: 100%;
+  background-image: url("../images/mainpage.png");
+  position: relative;
+}
+
+.logo {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  position: fixed;
+  color: white;
+  top: 8px;
+  left: 16px;
+  margin-top: 0.8rem;
+}
+
+.content ul {
+  display: flex;
+  text-align: center;
+  position: fixed;
+  top: 8px;
+  right: 16px;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+}
+
+.a {
+  padding: 1rem;
+}
+
+.Abouttext {
+  display: flex;
+  top: 54%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 130px;
+  color: white;
+  position: fixed;
+  padding-right: 73%;
+}
+
+.rectext {
+  display: flex;
+  top: 62%;
+  padding-left: 5%;
+  text-align: left;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  position: fixed;
+  color: white;
+  padding-top: 1%;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.a a {
+  text-decoration: none;
+  color: white;
+}
+
+.rectext p {
+  background: red;
+  color: white;
+  padding: 8px 30px 10px 15px;
+  border-radius: 30px;
+}
+
+@media (max-width: 700px) {
+  .backgroundimg {
+    height: calc(150vh - 120px);
+    overflow-y: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+  }
+
+  .logo a {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 10%;
+    display: flex;
+  }
+
+  .content ul {
+    display: flex;
+    position: fixed;
+    padding-top: 15%;
+  }
+
+  .a a {
+    padding-left: 6%;
+  }
+
+  .Abouttext {
+    top: 50%;
+    padding-left: 8.2rem;
+    font-size: 70px;
+    padding-top: 6rem;
+  }
+
+  .rectext p {
+    padding: 3% 10px 3%;
+    font-size: 15px;
+    text-align: left;
+  }
+}
