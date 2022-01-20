@@ -163,7 +163,7 @@
     height: auto;
     position: fixed;
     display: flex;
-    top: 48vh;
+    top: 43vh;
     font-size: 15px;
     right: auto;
     left: auto;
@@ -177,7 +177,7 @@
    .cr7png{
      display: flex;
      position: fixed;
-     top: 31%;
+     top: 29%;
      height: 18%;
    }
 
@@ -192,7 +192,7 @@
     height: auto;
     position: fixed;
     display: flex;
-    top: 80vh;
+    top: 72vh;
     font-size: 15px;
     right: auto;
     left: auto;
@@ -206,7 +206,7 @@
   .rl9png{
     position: fixed;
     display: flex;
-    top: 66%;
+    top: 63%;
     height: 15%;
   }
 }
